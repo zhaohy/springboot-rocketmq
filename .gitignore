@@ -1,0 +1,35 @@
+# maven ignore
+*target/
+!tools/*.jar
+*.war
+*.zip
+*.tar
+*catalina.home_IS_UNDEFINED/
+
+# eclipse ignore
+*.settings/
+.project
+.classpath
+
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
+
+# temp ignore
+files/
+logs/
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+# system ignore
+.DS_Store
+Thumbs.db
+
+sublime-project
+sublime-project.sublime-workspace
+/scheduler/files/
